@@ -1,543 +1,0 @@
-<!DOCTYPE html>
-<html lang="en" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>20 مزیت حرفه‌ای داشتن وبسایت برای کسب‌وکار</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
-        
-        body {
-            font-family: 'IBM Plex Sans Arabic', sans-serif;
-        }
-        
-        .gradient-bg {
-            background: linear-gradient(135deg, #1e3a8a 0%, #10b981 100%);
-        }
-        
-        .card-hover {
-            transition: all 0.3s ease;
-            transform-style: preserve-3d;
-        }
-        
-        .card-hover:hover {
-            transform: translateY(-8px) scale(1.02);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        }
-        
-        .feature-icon {
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.2);
-            margin-bottom: 20px;
-        }
-        
-        .animate-float {
-            animation: float 6s ease-in-out infinite;
-        }
-        
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
-        }
-        
-        .wave-bg {
-            height: 100px;
-            overflow: hidden;
-        }
-        
-        .wave-svg {
-            height: 100px;
-            width: 100%;
-            fill: #1e3a8a;
-        }
-    </style>
-</head>
-<body class="bg-gray-50">
-    <!-- Navbar -->
-    <nav class="gradient-bg text-white shadow-lg">
-        <div class="container mx-auto px-6 py-4">
-            <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold">وبسایت حرفه ای: جایی که همه میتوانند شما را ببینند 🚀&nbsp; &nbsp; &nbsp;</div>
-                <button class="lg:hidden focus:outline-none">
-                    <i class="fas fa-bars text-2xl"></i>
-                </button>
-                <div class="hidden lg:flex space-x-6">
-                    <a href="#benefits" class="hover:text-blue-200" style="margin-left: 20px">مزایا</a>
-                    <a href="#cta" class="hover:text-blue-200">شروع کنید</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="gradient-bg text-white py-20">
-        <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center">
-            <div class="lg:w-1/2 mb-10 lg:mb-0">
-                <h1 class="text-4xl lg:text-5xl font-bold leading-tight mb-6">
-                    چرا هر کسب‌وکاری به یک <span class="text-blue-200">وبسایت حرفه‌ای</span> نیاز دارد؟
-                </h1>
-                <p class="text-xl mb-8">
-                    20 دلیل قانع‌کننده برای اینکه امروز باید وبسایت شما وارد دنیای دیجیتال شود!
-                </p>
-                <a href="#benefits" class="bg-white text-blue-900 font-bold py-3 px-8 rounded-full hover:bg-blue-100 transition duration-300 inline-block">
-                    کشف مزایا
-                </a>
-            </div>
-            <div class="lg:w-1/2 flex justify-center animate-float">
-                <img src="https://cdn-icons-png.flaticon.com/512/3214/3214920.png" alt="Website Illustration" class="w-3/4">
-            </div>
-        </div>
-    </section>
-
-    <!-- Wave Divider -->
-    <div class="wave-bg">
-        <svg class="wave-svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
-        </svg>
-    </div>
-
-    <!-- Benefits Section -->
-    <section id="benefits" class="py-20 bg-white">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-16">
-                20 مزیت کلیدی داشتن <span class="text-blue-600">وبسایت حرفه‌ای</span>
-            </h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Benefit 1 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-globe text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">حضور 24 ساعته در جهان</h3>
-                    <p class="text-gray-700">
-                        وبسایت شما 24 ساعت شبانه‌روز و 7 روز هفته فعال است و بدون محدودیت زمانی در دسترس مشتریان قرار می‌گیرد.
-                    </p>
-                </div>
-                
-                <!-- Benefit 2 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-users text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">دسترسی به بازار جهانی</h3>
-                    <p class="text-gray-700">
-                        جغرافیا محدودیت نیست! با وبسایت می‌توانید در هر نقطه از دنیا مشتری داشته باشید و کسب‌وکارتان را جهانی کنید.
-                    </p>
-                </div>
-                
-                <!-- Benefit 3 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">تبلیغات مقرون‌به‌صرفه</h3>
-                    <p class="text-gray-700">
-                        هزینه تبلیغات آنلاین بسیار کمتر از روش‌های سنتی است و بازدهی بهتری دارد.
-                    </p>
-                </div>
-                
-                <!-- Benefit 4 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-credit-card text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">فروش آنلاین و درآمدزایی</h3>
-                    <p class="text-gray-700">
-                        امکان فروش محصولات و خدمات به صورت آنلاین و دریافت پرداخت الکترونیکی از مشتریان.
-                    </p>
-                </div>
-                
-                <!-- Benefit 5 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-search text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">بهبود سئو و کشف‌پذیری</h3>
-                    <p class="text-gray-700">
-                        با بهینه‌سازی سئو، مشتریان بالقوه می‌توانند شما را در نتایج جستجوی گوگل پیدا کنند.
-                    </p>
-                </div>
-                
-                <!-- Benefit 6 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-bullhorn text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">برندینگ حرفه‌ای</h3>
-                    <p class="text-gray-700">
-                        وبسایت به شما کمک می‌کند هویت برندتان را به صورت حرفه‌ای نمایش دهید و اعتمادسازی کنید.
-                    </p>
-                </div>
-                
-                <!-- Benefit 7 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-headset text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">پشتیبانی و ارتباط بهتر</h3>
-                    <p class="text-gray-700">
-                        امکان ارائه خدمات پس از فروش، پاسخ به سوالات و ارتباط مؤثر با مشتریان از طریق وبسایت.
-                    </p>
-                </div>
-                
-                <!-- Benefit 8 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-trophy text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">مزیت رقابتی</h3>
-                    <p class="text-gray-700">
-                        اگر رقبای شما وبسایت دارند و شما ندارید، قطعاً در رقابت عقب خواهید ماند.
-                    </p>
-                </div>
-                
-                <!-- Benefit 9 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-money-bill-wave text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">کاهش هزینه‌های عملیاتی</h3>
-                    <p class="text-gray-700">
-                        با خودکارسازی فرآیندها از طریق وبسایت، هزینه‌های نیروی انسانی و عملیاتی کاهش می‌یابد.
-                    </p>
-                </div>
-                
-                <!-- Benefit 10 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-mobile-alt text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">دسترسی موبایلی آسان</h3>
-                    <p class="text-gray-700">
-                        بیش از 80% کاربران از موبایل برای جستجو استفاده می‌کنند. وبسایت موبایل‌فرندلی ضروری است.
-                    </p>
-                </div>
-                
-                <!-- Benefit 11 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-newspaper text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">مرجع اطلاعات کسب‌وکار</h3>
-                    <p class="text-gray-700">
-                        وبسایت شما بهترین مکان برای نمایش اطلاعات کامل درباره محصولات، خدمات و کسب‌وکارتان است.
-                    </p>
-                </div>
-                
-                <!-- Benefit 12 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-pie text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">آنالیز و بهبود عملکرد</h3>
-                    <p class="text-gray-700">
-                        با ابزارهای تحلیلی می‌توانید رفتار کاربران را بررسی و عملکرد سایت را بهینه کنید.
-                    </p>
-                </div>
-                
-                <!-- Benefit 13 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-envelope text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">جذب لیست مشتریان</h3>
-                    <p class="text-gray-700">
-                        امکان جمع‌آوری ایمیل‌ها و اطلاعات تماس مشتریان بالقوه برای بازاریابی مستقیم.
-                    </p>
-                </div>
-                
-                <!-- Benefit 14 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-star text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">نمایش تخصص و حرفه‌ای‌گری</h3>
-                    <p class="text-gray-700">
-                        با انتشار مقالات تخصصی و نمونه کارها، خود را به عنوان متخصص حوزه کاریتان معرفی کنید.
-                    </p>
-                </div>
-                
-                <!-- Benefit 15 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-comments text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">تعامل با مشتریان</h3>
-                    <p class="text-gray-700">
-                        از طریق فرم‌های تماس، چت آنلاین و نظرسنجی‌ها با مشتریان در تعامل باشید.
-                    </p>
-                </div>
-                
-                <!-- Benefit 16 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-briefcase text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">رهبری بازار</h3>
-                    <p class="text-gray-700">
-                        با وبسایت حرفه‌ای می‌توانید به عنوان مرجع و پیشرو در صنعت خود شناخته شوید.
-                    </p>
-                </div>
-                
-                <!-- Benefit 17 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-retweet text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">بازاریابی ویروسی</h3>
-                    <p class="text-gray-700">
-                        محتوای جذاب در سایت می‌تواند به سرعت در شبکه‌های اجتماعی به اشتراک گذاشته شود.
-                    </p>
-                </div>
-                
-                <!-- Benefit 18 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-store-alt text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">فروشگاه آنلاین دائمی</h3>
-                    <p class="text-gray-700">
-                        برخلاف مغازه فیزیکی که ساعت کار محدود دارد، فروشگاه آنلاین شما همیشه باز است.
-                    </p>
-                </div>
-                
-                <!-- Benefit 19 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-truck text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">زنجیره تأمین بهینه‌تر</h3>
-                    <p class="text-gray-700">
-                        می‌توانید مستقیماً با تولیدکنندگان و تأمین‌کنندگان ارتباط برقرار کنید.
-                    </p>
-                </div>
-                
-                <!-- Benefit 20 -->
-                <div class="bg-gray-50 rounded-xl p-8 shadow-md border border-gray-200 card-hover">
-                    <div class="feature-icon">
-                        <i class="fas fa-lightbulb text-2xl text-blue-600"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">انعطاف‌پذیری و مقیاس‌پذیری</h3>
-                    <p class="text-gray-700">
-                        به راحتی می‌توانید کسب‌وکارتان را گسترش دهید بدون نیاز به هزینه‌های اضافی فیزیکی.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="py-16 gradient-bg text-white">
-        <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                <div>
-                    <div class="text-4xl font-bold mb-2">4.9B+</div>
-                    <p class="text-xl">کاربران اینترنت در جهان</p>
-                </div>
-                <div>
-                    <div class="text-4xl font-bold mb-2">60%+</div>
-                    <p class="text-xl">خریدهای آنلاین نسبت به 5 سال قبل</p>
-                </div>
-                <div>
-                    <div class="text-4xl font-bold mb-2">8/10</div>
-                    <p class="text-xl">مصرف‌کنندگان قبل از خرید از سایت بررسی می‌کنند</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-	<!--
-    <section class="py-20 bg-gray-100">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">
-                مشتریان ما چه می‌گویند؟
-            </h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-xl shadow-md">
-                    <div class="flex items-center mb-4">
-                        <div class="text-yellow-500 mr-2">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                    <p class="text-gray-700 mb-6">
-                        "بعد از راه‌اندازی سایت، فروش ما 3 برابر شد و مشتریان جدیدی از شهرهای دیگر پیدا کردیم."
-                    </p>
-                    <div class="flex items-center">
-                        <img src="https://randomuser.me/api/portraits/women/42.jpg" alt="Customer" class="w-12 h-12 rounded-full mr-4">
-                        <div>
-                            <h4 class="font-bold">نسرین محمدی</h4>
-                            <p class="text-gray-600">مدیر فروشگاه لوازم آرایشی</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="bg-white p-8 rounded-xl shadow-md">
-                    <div class="flex items-center mb-4">
-                        <div class="text-yellow-500 mr-2">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                    <p class="text-gray-700 mb-6">
-                        "وبسایت به ما کمک کرد اعتبار برندمان را افزایش دهیم و با شرکت‌های بزرگتری همکاری کنیم."
-                    </p>
-                    <div class="flex items-center">
-                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer" class="w-12 h-12 rounded-full mr-4">
-                        <div>
-                            <h4 class="font-bold">رضا عابدی</h4>
-                            <p class="text-gray-600">مدیر عامل شرکت خدماتی</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="bg-white p-8 rounded-xl shadow-md">
-                    <div class="flex items-center mb-4">
-                        <div class="text-yellow-500 mr-2">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                    <p class="text-gray-700 mb-6">
-                        "روزی 20-30 مشتری جدید فقط از طریق سایت با ما تماس می‌گیرند. واقعاً سرمایه‌گذاری ارزشمندی بود."
-                    </p>
-                    <div class="flex items-center">
-                        <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="Customer" class="w-12 h-12 rounded-full mr-4">
-                        <div>
-                            <h4 class="font-bold">زهرا موسوی</h4>
-                            <p class="text-gray-600">صاحب کلینیک زیبایی</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
--->
-    <!-- CTA Section -->
-    <section id="cta" class="py-20 gradient-bg text-white">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl lg:text-4xl font-bold mb-6">
-                آماده ارتقای کسب‌وکار خود هستید؟
-            </h2>
-            <p class="text-xl mb-10 max-w-2xl mx-auto">
-                همین امروز سایت حرفه‌ای خود را راه‌اندازی کنید و از رقبا پیشی بگیرید!
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#" class="bg-white text-blue-900 font-bold py-3 px-8 rounded-full hover:bg-blue-100 transition duration-300 inline-block">
-                    درخواست طراحی سایت
-                </a>
-                <a href="#" class="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-full hover:bg-white hover:text-blue-900 transition duration-300 inline-block">
-                    مشاوره رایگان
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12">
-        <div class="container mx-auto px-6">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div>
-                    <h3 class="text-xl font-bold mb-4">وبسایت حرفه‌ای</h3>
-                    <p class="text-gray-400">
-                        ما به شما کمک می‌کنیم در دنیای دیجیتال بدرخشید و کسب‌وکارتان را به سطح جدیدی برسانید.
-                    </p>
-                </div>
-                <div>
-                    <h4 class="text-lg font-bold mb-4">لینک‌های مفید</h4>
-                    <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white">صفحه اصلی</a></li>
-                        <li><a href="#benefits" class="text-gray-400 hover:text-white">مزایا</a></li>
-                        <li><a href="#cta" class="text-gray-400 hover:text-white">تماس با ما</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-lg font-bold mb-4">تماس با ما</h4>
-                    <ul class="space-y-2 text-gray-400">
-                        <li class="flex items-center">
-                            <i class="fas fa-phone-alt mr-2" style="margin-left: 5px"></i>
-                          09175913293
-                      </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-envelope mr-2" style="margin-left: 5px"></i>
-                          smartjob.site.seo@gmail.com
-                      </li>
-                        <li class="flex items-center">
-                            <i class="fas fa-map-marker-alt mr-2" style="margin-left: 5px">شیراز</i>
-                          
-                      </li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-lg font-bold mb-4">شبکه‌های اجتماعی</h4>
-                    <div class="flex space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-white text-xl">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white text-xl">
-                            <i class="fab fa-telegram" style="padding-right: 10px;"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white text-xl">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white text-xl">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-                <p>© 2025 تمامی حقوق محفوظ است.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Back to Top Button -->
-    <a href="#" class="fixed bottom-6 right-6 bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition duration-300">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <script>
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-        
-        // Mobile menu toggle
-        const mobileMenuButton = document.querySelector('nav button');
-        const mobileMenu = document.querySelector('nav .hidden');
-        
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-            mobileMenu.classList.toggle('flex');
-        });
-    </script>
-</body>
-</html>
